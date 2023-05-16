@@ -1,0 +1,18 @@
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea I BELIVE I CAN FLY.csprojAssemblyReference.cache
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Form6.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Form4.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Form3.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Form5.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Form1.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Form2.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Inicio.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Login.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Properties.Resources.resources
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea I BELIVE I CAN FLY.csproj.GenerateResource.cache
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea I BELIVE I CAN FLY.csproj.CoreCompileInputs.cache
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\bin\Debug\Aerolinea I BELIVE I CAN FLY.exe.config
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\bin\Debug\Aerolinea I BELIVE I CAN FLY.exe
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\bin\Debug\Aerolinea I BELIVE I CAN FLY.pdb
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea I BELIVE I CAN FLY.exe
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea I BELIVE I CAN FLY.pdb
+C:\Users\angie johanna gonzal\source\repos\Aerolinea I BELIVE I CAN FLY\Aerolinea I BELIVE I CAN FLY\obj\Debug\Aerolinea_I_BELIVE_I_CAN_FLY.Form7.resources

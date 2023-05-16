@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CDB6D13C-53CC-41D1-905E-5B3B75191693}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Aerolinea_I_BELIVE_I_CAN_FLY</RootNamespace>
+    <AssemblyName>Aerolinea I BELIVE I CAN FLY</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consultar Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultar Informacion.Designer.cs">
+      <DependentUpon>Consultar Informacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cantidad Tiquetes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cantidad Tiquetes.Designer.cs">
+      <DependentUpon>Cantidad Tiquetes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultar Vuelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultar Vuelos.Designer.cs">
+      <DependentUpon>Consultar Vuelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adquirir Tiquete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adquirir Tiquete.Designer.cs">
+      <DependentUpon>Adquirir Tiquete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Acceso.cs" />
+    <Compile Include="Negocio\Administrador.cs" />
+    <Compile Include="Negocio\Vuelos.cs" />
+    <Compile Include="Registrar Equipaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar Equipaje.Designer.cs">
+      <DependentUpon>Registrar Equipaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>Perfil Usuario.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generar Reporte D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generar Reporte D.Designer.cs">
+      <DependentUpon>Generar Reporte D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Aerolinea.cs" />
+    <Compile Include="Negocio\Fecha.cs" />
+    <Compile Include="Negocio\Personas.cs" />
+    <Compile Include="Negocio\Usuarios.cs" />
+    <Compile Include="Negocio\VentasDiarias.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Adquirir Tiquete.resx">
+      <DependentUpon>Adquirir Tiquete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cantidad Tiquetes.resx">
+      <DependentUpon>Cantidad Tiquetes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultar Informacion.resx">
+      <DependentUpon>Consultar Informacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultar Vuelos.resx">
+      <DependentUpon>Consultar Vuelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar Equipaje.resx">
+      <DependentUpon>Registrar Equipaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generar Reporte D.resx">
+      <DependentUpon>Generar Reporte D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perfil Usuario.resx">
+      <DependentUpon>Perfil Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
